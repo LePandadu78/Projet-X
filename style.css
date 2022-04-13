@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 200px;
+    position: fixed; left : 10px; top : 10px;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.declaration{
+    color: white;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+}
+
+#btn {
+    background-color: rebeccapurple;
+    border: none;
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+button.active {
+    transform: translateX(-100px);
+}
+
+nav {
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+nav.active {
+    transform: translateX(0);
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 1rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#contact {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: none;
+  }
+  
+  .flex-container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  label{
+      color: white;
+  }
+  
+  #firstname {
+    margin: 1em;
+    width: 15em;
+    height: 3em;
+  }
+
+  textarea{
+      display: flex;
+      font-size: 3em;
+      padding: 20px;
+  }
+
+  input{
+      display: flex;
+      font-size: 1.5em;
+  }
+
+  #envoi{
+    background-color: rebeccapurple;
+    border: none;
+    color: white;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
